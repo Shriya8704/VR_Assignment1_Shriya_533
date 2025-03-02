@@ -23,6 +23,7 @@ This project demonstrates how to use SIFT (Scale-Invariant Feature Transform) an
    * Warp and align the images to create a stitched output.
   
    * Save and display the final stitched image (output.jpg).
+   
 
 ### **Code Explanation**
 
@@ -37,12 +38,15 @@ This project demonstrates how to use SIFT (Scale-Invariant Feature Transform) an
    * SIFT Keypoint Detection: Extracts key points and descriptors.
    * BFMatcher: Finds the best feature matches based on descriptor distances.
    * Sorting Matches: Keeps the best matches based on distance for accuracy.
+     
+
 
 3. **Homography Estimation**
 
    * Extracts matched key points.
 
    * Computes the transformation matrix using cv2.findHomography with RANSAC.
+    ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q2/img_matches.jpg)
 
 4. **Image Warping & Blending**
 
@@ -53,6 +57,7 @@ This project demonstrates how to use SIFT (Scale-Invariant Feature Transform) an
    * Uses a translation matrix to align both images properly.
 
    * Creates a blended output by selecting non-zero pixels from the warped images.
+     ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q2/output.jpg)
 
 ## **Results and Observations**
 
