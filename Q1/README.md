@@ -30,7 +30,8 @@ This project demonstrates the use of the Watershed Algorithm for segmenting and 
    * Loading the Image: The script reads coins.png using OpenCV.
    * Displaying the Image: A helper function imshow() is used to display images within a Jupyter Notebook.
    * Grayscale Conversion: Converts the image to grayscale for processing.
-   ![Alt Text](https://raw.githubusercontent.com/Shriya8704/VR_Assignemnt1_Shriya_533/Q1/coins.png)
+
+    ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q1/grey.jpg)
 
 2. **Image Segmentation**
    * Thresholding: Uses Otsu’s Binarization to create a binary image.
@@ -48,6 +49,9 @@ This project demonstrates the use of the Watershed Algorithm for segmenting and 
    * Connected Components Analysis: Labels different regions of the segmented image.
   
    * Watershed Algorithm: Applies OpenCV’s watershed() function to perform segmentation.
+  
+    ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q1/watershed.jpg)
+
 
 3. **Contour Extraction and Counting**
 
