@@ -39,7 +39,8 @@ Alternatively, if you are running the code in Google Colab, you can use:
    * Loading the Image: The script reads coins.png using OpenCV.
    * Displaying the Image: A helper function imshow() is used to display images within a Jupyter Notebook.
    * Grayscale Conversion: Converts the image to grayscale for processing.
-     
+   ![Alt Text](https://raw.githubusercontent.com/Shriya8704/VR_Assignemnt1_Shriya_533/coins.png)
+
 2. **Image Segmentation**
    * Thresholding: Uses Otsu’s Binarization to create a binary image.
   
