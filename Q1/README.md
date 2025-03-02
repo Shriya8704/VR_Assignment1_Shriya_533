@@ -50,7 +50,7 @@ This project demonstrates the use of the Watershed Algorithm for segmenting and 
   
    * Watershed Algorithm: Applies OpenCV’s watershed() function to perform segmentation.
   
-    ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q1/watershed.jpg)
+    ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q1/watershed.png)
 
 
 3. **Contour Extraction and Counting**
@@ -58,3 +58,5 @@ This project demonstrates the use of the Watershed Algorithm for segmenting and 
    * Extracts contours of the detected objects (coins) and draws them on the original image.
   
    * The script prints the total number of coins detected.
+     
+    ![Greyscale Image](https://github.com/Shriya8704/VR_Assignment1_Shriya_533/blob/main/Q1/contours.jpg)
