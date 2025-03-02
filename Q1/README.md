@@ -2,15 +2,6 @@
 ### **Introduction**
 This project demonstrates the use of the Watershed Algorithm for segmenting and counting coins in an image. The script performs image preprocessing, applies morphological transformations, and utilizes the Watershed algorithm to identify and count the number of coins.
 
-### **Requirements**
-Ensure you have the following dependencies installed before running the script:
-```bash
-pip install opencv-python numpy matplotlib
-```
-Alternatively, if you are running the code in Google Colab, you can use:
-```bash
-!pip install opencv-python numpy matplotlib
-```
 ### **Running the Code**
 
 1. Place the image file (coins.png) in the working directory.
